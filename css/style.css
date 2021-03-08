@@ -11,9 +11,22 @@ body {
   padding-bottom: 100px;
 }
 
+.espacios_arriba {
+  padding-top: 100px;
+}
+
+
+.espacios_abajo {
+  padding-bottom: 100px;
+}
+
 .espacios_mas_chicos {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.espacios_mas_chicos_arriba {
+  padding-top: 50px;
 }
 
 .logo {
@@ -23,9 +36,8 @@ body {
   float: center;
 }
 
-.titulo {
-  padding: 140px;
-  font-weight: bolder;
+.letra_loca {
+  font-family: 'Orbitron', sans-serif;
 }
 
 .splash {
