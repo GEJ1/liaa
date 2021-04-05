@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+#welcome {
+  color: #311b92;
+}
+
 .espacios {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -38,6 +42,7 @@ body {
 
 .letra_loca {
   font-family: 'Orbitron', sans-serif;
+  color: #311b92;
 }
 
 .splash {
@@ -167,6 +172,7 @@ body {
 }
 
 .social-footer {
+  margin: 0;
   padding: 1rem;
   background: #8a8a8a;
   display: -webkit-flex;
@@ -185,13 +191,19 @@ body {
 }
 
 .social-footer .social-footer-icons .fa {
-  font-size: 2.7rem;
+  font-size: 3rem;
   color: #fefefe;
 }
 
 .social-footer .social-footer-icons .fa:hover {
   color: #4a4a4a;
   transition: color 0.3s ease-in;
+}
+
+.social-footer .social-footer-icons .ul-footer {
+  margin-bottom: 0;
+  padding: 0;
+  
 }
 
 .social-footer p {
@@ -203,8 +215,8 @@ body {
   text-align: center;
 }
 
-.social-footer h5 {
-  color: white;
+.gus-footer{
+  color: #311b92;
 }
 
 .static {
@@ -214,4 +226,24 @@ body {
 
 .static:hover {
   opacity: 0;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:96px;
+	right:12px;
+	background-color:white;
+	color: #311b92;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #8a8a8a;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
